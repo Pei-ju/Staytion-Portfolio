@@ -14,9 +14,11 @@ Built with **Java Spring Boot** for backend APIs and **HTML/CSS/JavaScript (Boot
 ## 📁 Project Repositories 專案倉庫
 
 - **Frontend 前端**：[JAVA-Hotel](https://github.com/Pei-ju/JAVA-Hotel)  
-  HTML、CSS、JavaScript、Bootstrap 製作的使用者與後台介面，包含 RWD 響應式設計與 Chart.js 圖表視覺化。
+   HTML, CSS, JavaScript, and Bootstrap-based UI. Features include an admin dashboard, Chart.js data visualizations, and responsive layout.
+   HTML、CSS、JavaScript、Bootstrap 製作的使用者與後台介面，包含 RWD 響應式設計與 Chart.js 圖表視覺化。
 
 - **Backend 後端**：[Staytion](https://github.com/Pei-ju/Staytion)  
+  Java Spring Boot + MySQL backend with RESTful APIs for hotels, room types, bookings, reviews, and user accounts.
   使用 Java Spring Boot + MySQL，提供 RESTful API（飯店、房型、訂單、評論、使用者管理等模組）。
 
 ---
@@ -53,16 +55,20 @@ Built with **Java Spring Boot** for backend APIs and **HTML/CSS/JavaScript (Boot
 
 ### 🔸 Admin Dashboard 管理者後台系統
 
-- **Hotel & Room Management 飯店與房型管理**  
+- **Hotel & Room Management 飯店與房型管理**
+  Add, edit, and delete hotels and room types. Control room availability and features.
   新增、修改、刪除飯店與房型，調整房間數與設施
 
 - **Booking Management 訂單管理**  
+  View and filter bookings, update order statuses, and export order data.
   查詢訂單、更新狀態、匯出報表
 
 - **Review Moderation 評論管理**  
+  View and respond to customer reviews. Filter by rating or reply status.
   篩選與回覆用戶評論、標記回應狀態
 
 - **Analytics & Charts 數據分析與圖表**  
+  Visualize monthly revenue, booking trends, and room type distributions using Chart.js (line & pie charts).
   使用 Chart.js 呈現月營收、房型銷售比例等
 
 ---
