@@ -72,18 +72,6 @@ Built with **Java Spring Boot** for backend APIs and **HTML/CSS/JavaScript (Boot
 git clone https://github.com/Pei-ju/JAVA-Hotel.git
 cd JAVA-Hotel
 
-# Open the project in your IDE or launch the index.html file in a browser
-
-
-## How to Run
-
-### Frontend
-
-```bash
-# Clone frontend repo
-git clone https://github.com/Pei-ju/JAVA-Hotel.git
-cd JAVA-Hotel
-
 # Open frontend home.html in browser (e.g., with VS Code Live Server)
 ```
 ### Backend
