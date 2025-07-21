@@ -55,20 +55,20 @@ Built with **Java Spring Boot** for backend APIs and **HTML/CSS/JavaScript (Boot
 
 ### 🔸 Admin Dashboard 管理者後台系統
 
-- **Hotel & Room Management 飯店與房型管理**
-  Add, edit, and delete hotels and room types. Control room availability and features.
+- **Hotel & Room Management 飯店與房型管理**  
+  Add, edit, and delete hotels and room types. Control room availability and features.  
   新增、修改、刪除飯店與房型，調整房間數與設施
 
 - **Booking Management 訂單管理**  
-  View and filter bookings, update order statuses, and export order data.
+  View and filter bookings, update order statuses, and export order data.  
   查詢訂單、更新狀態、匯出報表
 
 - **Review Moderation 評論管理**  
-  View and respond to customer reviews. Filter by rating or reply status.
+  View and respond to customer reviews. Filter by rating or reply status.  
   篩選與回覆用戶評論、標記回應狀態
 
 - **Analytics & Charts 數據分析與圖表**  
-  Visualize monthly revenue, booking trends, and room type distributions using Chart.js (line & pie charts).
+  Visualize monthly revenue, booking trends, and room type distributions using Chart.js (line & pie charts).  
   使用 Chart.js 呈現月營收、房型銷售比例等
 
 ---
