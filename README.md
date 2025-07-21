@@ -30,20 +30,28 @@ Built with Java Spring Boot for backend APIs and HTML/CSS/JavaScript (Bootstrap)
 
 ## Key Features
 
+### User-side Booking Website (Frontend)
+
+- Browse and search hotels and room types with filtering options.
+- View detailed room information and hotel amenities.
+- Select booking dates, number of guests, and make reservations.
+- User account registration, login, and profile management.
+- Booking history review and cancellation functionality.
+- Responsive UI design optimized for desktop and mobile devices.
+
+### Backend Management Dashboard (Admin)
+
 - Hotel & Room Type Management  
-  Add/edit/delete hotels and room types. Manage amenities and availability.
+  Add, edit, delete hotels and room types, manage room availability and features.
 
 - Booking Order Management  
-  View booking records, filter by date/status, export as Excel/PDF.
+  View, filter, and manage booking orders, update statuses, and export reports.
 
 - Review Moderation  
-  Review guest comments, reply to reviews, mark as responded, filter by rating.
+  Manage user reviews, reply to comments, mark as responded, and filter by rating.
 
-- Dashboard Analytics  
-  Revenue trends, room type distribution, monthly statistics with Chart.js.
-
-- Responsive UI  
-  Supports desktop and mobile views for admin.
+- Analytics and Reporting  
+  Revenue trends, booking statistics, and room type distributions visualized with Chart.js.
 
 ---
 
