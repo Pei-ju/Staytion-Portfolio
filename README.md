@@ -1,6 +1,6 @@
-# Staytion - Hotel Booking Management Dashboard
+# Staytion - Hotel Booking System
 
-A full-featured hotel management system with frontend-backend separation. Developed as a team project, this system supports hotel and room management, booking orders, review moderation, and revenue analytics.  
+A full-featured hotel booking system with frontend-backend separation. Developed as a team project, this system supports hotel and room management, booking orders, review moderation, and revenue analytics.  
 Built with Java Spring Boot for backend APIs and HTML/CSS/JavaScript (Bootstrap) for frontend UI.
 
 ---
