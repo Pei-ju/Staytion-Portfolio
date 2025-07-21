@@ -7,11 +7,11 @@ Built with Java Spring Boot for backend APIs and HTML/CSS/JavaScript (Bootstrap)
 
 ## Project Repositories
 
-- Backend Repo: [JAVA-Hotel](https://github.com/Pei-ju/JAVA-Hotel)  
-  Java + Spring Boot + MySQL. Provides RESTful APIs for hotel, room type, bookings, and reviews.
+- Frontend Repo: [JAVA-Hotel](https://github.com/Pei-ju/JAVA-Hotel)  
+  Java-based frontend with HTML, CSS, and Bootstrap. Admin dashboard with responsive UI and Chart.js visualizations.
 
-- Frontend Repo: [Staytion](https://github.com/Pei-ju/Staytion)  
-  HTML, CSS (SCSS), Bootstrap. Admin dashboard with responsive UI and Chart.js visualizations.
+- Backend Repo: [Staytion](https://github.com/Pei-ju/Staytion)  
+  Java Spring Boot + MySQL backend. Provides RESTful APIs for hotel, room type, bookings, and reviews.
 
 ---
 
@@ -19,7 +19,7 @@ Built with Java Spring Boot for backend APIs and HTML/CSS/JavaScript (Bootstrap)
 
 | Layer        | Technology                                  |
 |--------------|----------------------------------------------|
-| Frontend     | HTML, CSS / SCSS, JavaScript, Bootstrap      |
+| Frontend     | Java, HTML, CSS, Bootstrap                    |
 | Backend      | Java, Spring Boot, Spring MVC, JPA           |
 | Database     | MySQL                                        |
 | Charts       | Chart.js                                     |
@@ -49,9 +49,9 @@ Built with Java Spring Boot for backend APIs and HTML/CSS/JavaScript (Bootstrap)
 
 ## My Contributions
 
-- Developed RESTful APIs using Spring Boot for hotel, room, order, and review modules.
+- Developed backend RESTful APIs using Spring Boot for hotel, room, order, and review modules.
 - Designed database schema and implemented JPA entity relationships.
-- Built frontend pages with Bootstrap (room types, orders, reviews, analytics).
+- Built frontend pages with Java, Bootstrap, and Chart.js.
 - Integrated frontend and backend via AJAX and JSON.
 - Visualized report data using Chart.js (line, pie charts).
 - Assisted with API testing using Postman and Swagger.
@@ -71,22 +71,22 @@ Built with Java Spring Boot for backend APIs and HTML/CSS/JavaScript (Bootstrap)
 
 ## How to Run
 
-### Backend
-
-```bash
-# Clone backend repo
-git clone https://github.com/Pei-ju/JAVA-Hotel.git
-cd JAVA-Hotel
-
-# Build and run Spring Boot
-./mvnw spring-boot:run
-```
 ### Frontend
 
 ```bash
 # Clone frontend repo
+git clone https://github.com/Pei-ju/JAVA-Hotel.git
+cd JAVA-Hotel
+
+# Open frontend (e.g., run in your Java environment or open index.html if applicable)
+```
+### Backend
+
+```bash
+# Clone backend repo
 git clone https://github.com/Pei-ju/Staytion.git
 cd Staytion
 
-# Open index.html in browser (e.g., with VS Code Live Server)
+# Build and run Spring Boot
+./mvnw spring-boot:run
 ```
