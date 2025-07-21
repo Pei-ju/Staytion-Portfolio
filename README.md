@@ -1,67 +1,79 @@
 # Staytion - Hotel Booking System
 
-A full-featured hotel booking system with frontend-backend separation. Developed as a team project, this system supports hotel and room management, booking orders, review moderation, and revenue analytics.  
-Built with Java Spring Boot for backend APIs and HTML/CSS/JavaScript (Bootstrap) for frontend UI.
+A full-stack hotel booking system with **frontend-backend separation**, developed as a team project. This platform includes hotel and room management, booking workflows, review moderation, and revenue analytics.  
+Built with **Java Spring Boot** for backend APIs and **HTML/CSS/JavaScript (Bootstrap)** for the frontend interface.
 
 ---
 
-## Project Repositories
+## 📁 Project Repositories
 
-- Frontend Repo: [JAVA-Hotel](https://github.com/Pei-ju/JAVA-Hotel)  
-  Java-based frontend with HTML, CSS, and Bootstrap. Admin dashboard with responsive UI and Chart.js visualizations.
+- **Frontend**: [JAVA-Hotel](https://github.com/Pei-ju/JAVA-Hotel)  
+  HTML, CSS, JavaScript, and Bootstrap-based UI. Features include an admin dashboard, Chart.js data visualizations, and responsive layout.
 
-- Backend Repo: [Staytion](https://github.com/Pei-ju/Staytion)  
-  Java Spring Boot + MySQL backend. Provides RESTful APIs for hotel, room type, bookings, and reviews.
-
----
-
-## Tech Stack
-
-| Layer        | Technology                                  |
-|--------------|----------------------------------------------|
-| Frontend     | Java, HTML, CSS, Bootstrap                    |
-| Backend      | Java, Spring Boot, Spring MVC, JPA           |
-| Database     | MySQL                                        |
-| Charts       | Chart.js                                     |
-| Architecture | RESTful API, Frontend-Backend Separation     |
-| Version Ctrl | GitHub, Git Branching                        |
+- **Backend**: [Staytion](https://github.com/Pei-ju/Staytion)  
+  Java Spring Boot + MySQL backend with RESTful APIs for hotels, room types, bookings, reviews, and user accounts.
 
 ---
 
-## Key Features
+## 🛠 Tech Stack
 
-### User-side Booking Website
+| Layer        | Technology                                 |
+|--------------|---------------------------------------------|
+| Frontend     | HTML, CSS, JavaScript, Bootstrap            |
+| Backend      | Java, Spring Boot, Spring MVC, JPA          |
+| Database     | MySQL                                       |
+| Charts       | Chart.js                                    |
+| Architecture | RESTful API, Frontend–Backend Separation    |
+| Dev Tools    | GitHub, Git Branching, Postman, Swagger     |
+
+---
+
+## ✨ Key Features
+
+### 🔹 User-Side Booking Platform
 
 - Browse and search hotels and room types with filtering options.
-- View detailed room information and hotel amenities.
-- Select booking dates, number of guests, and make reservations.
-- User account registration, login, and profile management.
-- Booking history review and cancellation functionality.
-- Responsive UI design optimized for desktop and mobile devices.
+- View detailed room descriptions and amenities.
+- Select check-in/check-out dates and number of guests.
+- Register and log in to user accounts.
+- Review past bookings and cancel upcoming reservations.
+- Fully responsive UI for desktop and mobile users.
 
-### Management Dashboard (Admin)
+### 🔸 Admin Management Dashboard
 
-- Hotel & Room Type Management  
-  Add, edit, delete hotels and room types, manage room availability and features.
-- Booking Order Management  
-  View, filter, and manage booking orders, update statuses, and export reports.
-- Review Moderation  
-  Manage user reviews, reply to comments, mark as responded, and filter by rating.
-- Analytics and Reporting  
-  Revenue trends, booking statistics, and room type distributions visualized with Chart.js.
+- **Hotel & Room Management**  
+  Add, edit, and delete hotels and room types. Control room availability and features.
+- **Booking Order Management**  
+  View and filter bookings, update order statuses, and export order data.
+- **Review Moderation**  
+  View and respond to customer reviews. Filter by rating or reply status.
+- **Analytics & Reports**  
+  Visualize monthly revenue, booking trends, and room type distributions using Chart.js (line & pie charts).
+
+---
+
+## 👩‍💻 My Contributions
+
+- Developed backend RESTful APIs for hotel, room, booking, and review modules.
+- Designed and implemented MySQL database schema using JPA entity relationships.
+- Built frontend interfaces using HTML, JavaScript, Bootstrap, and Chart.js.
+- Integrated frontend and backend via AJAX and JSON data exchange.
+- Visualized analytics data using Chart.js.
+- Collaborated on API documentation and testing with Postman and Swagger.
 
 ---
 
-## My Contributions
+## 🚀 How to Run the Project
 
-- Developed backend RESTful APIs using Spring Boot for hotel, room, order, and review modules.
-- Designed database schema and implemented JPA entity relationships.
-- Built frontend pages with Java, Bootstrap, and Chart.js.
-- Integrated frontend and backend via AJAX and JSON.
-- Visualized report data using Chart.js (line, pie charts).
-- Assisted with API testing using Postman and Swagger.
+### Frontend
 
----
+```bash
+# Clone the frontend repository
+git clone https://github.com/Pei-ju/JAVA-Hotel.git
+cd JAVA-Hotel
+
+# Open the project in your IDE or launch the index.html file in a browser
+
 
 ## How to Run
 
@@ -72,7 +84,7 @@ Built with Java Spring Boot for backend APIs and HTML/CSS/JavaScript (Bootstrap)
 git clone https://github.com/Pei-ju/JAVA-Hotel.git
 cd JAVA-Hotel
 
-# Open frontend (e.g., run in your Java environment or open index.html if applicable)
+# Open frontend home.html in browser (e.g., with VS Code Live Server)
 ```
 ### Backend
 
